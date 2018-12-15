@@ -1,2 +1,2 @@
 # learning-python
-The porpouse of this repositorie is help you to learn python
+The porpouse of this repositorie is show you how I'm learning python
