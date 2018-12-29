@@ -19,6 +19,18 @@ print(type(bool_variable))
 print('bool_variable: ', bool_variable)
 print('not(bool_variable): ', not(bool_variable))
 
+# Truth Value
+# We can use non-boolean objects in a boolean expression of an if statement (woooww!) 
+# Here are most of the built-in objects that are considered False in Python:
+# - constants defined to be false: None and False
+# - zero of any numeric type: 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
+# - empty sequences and collections: '"", (), [], {}, set(), range(0)
+errors = 6
+if errors:
+    print("Wait: there are {} errors to fix!".format(errors))
+else:
+    print("Congratulations: no errors found!")
+    
 # String type
 print("--- STRING ---")
 my_string = 'Let\'s go, baby!'
